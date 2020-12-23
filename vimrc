@@ -45,3 +45,7 @@ hi Search term=reverse ctermbg=7 guibg=Yellow
 " Ctrl-H replace all tabs with a space, return cursor to current position
 :nnoremap <C-h> :%s/\t/ /g<CR>''
 
+" Persistent undo between sessions
+set undofile " Maintain undo history between sessions
+set undodir=~/.vim/undo
+
