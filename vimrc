@@ -49,3 +49,5 @@ hi Search term=reverse ctermbg=7 guibg=Yellow
 set undofile " Maintain undo history between sessions
 set undodir=~/.vim/undo
 
+" Set Airline theme
+let g:airline_theme='solarized'
