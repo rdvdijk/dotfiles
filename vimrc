@@ -51,3 +51,9 @@ set undodir=~/.vim/undo
 
 " Set Airline theme
 let g:airline_theme='solarized'
+
+" disk length shortcuts
+nnoremap <Leader>0 :.!dlen<CR>
+nnoremap <Leader>1 :.!d1len<CR>
+nnoremap <Leader>2 :.!d2len<CR>
+nnoremap <Leader>3 :.!d3len<CR>
